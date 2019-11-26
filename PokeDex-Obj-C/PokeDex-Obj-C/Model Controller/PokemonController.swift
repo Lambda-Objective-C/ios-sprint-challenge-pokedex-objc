@@ -11,7 +11,7 @@ import UIKit
 
 class PokemonController: NSObject {
     
-    let pokemonBaseURL = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=20")!
+    let pokemonBaseURL = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=100")!
     
     @objc (sharedController) static let shared = PokemonController()
     
